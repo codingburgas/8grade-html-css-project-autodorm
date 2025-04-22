@@ -17,5 +17,10 @@ The goal of this project is to simulate a real-world car rental platform with a 
 - 🔐 Login and registration
 
  ## 💻 Technologies Used
- ![HTML](media/htmlLogo.jpg)
- ![CSS](media/cssLogo.png)
+<table>
+  <tr>
+    <td><img src="media/htmlLogo.jpg" width="200"/></td>
+    <td><img src="media/cssLogo.png" width="200"/></td>
+    <td><img src="media/teamsLogo.jpg" width="300"></td>
+  </tr>
+</table>

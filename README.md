@@ -4,7 +4,7 @@ This is a web-based application for a car rental service. The platform allows us
 
 ## 🌐 Project Overview
 
-The goal of this project is to simulate a real-world car rental platform with a focus on clean interface, user-friendly functionality, and essential features like searching and booking.
+The goal of this project is to simulate a real-world car rental platform with a focus on clean interface, user-friendly functionality, and essential features like searching and booking
 
 ## 🛠️ Features
 

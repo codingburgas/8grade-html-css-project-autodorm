@@ -1,5 +1,8 @@
-![logo](media/logo.png)
-#  AutoDorm
+<p align="center">
+    <img src="media/logo.png" alt="AutoDorm logo" width="450" height="350">
+</p>    
+
+## 🚗 AutoDorm
 
 This is a web-based application for a car rental service. The platform allows users to browse available cars, book rentals, and manage their reservations. The project was built as part of a school assignment to demonstrate web development skills.
 

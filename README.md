@@ -1,4 +1,5 @@
-# 🚗 AutoDorm
+![logo](media/logo.png)
+#  AutoDorm
 
 This is a web-based application for a car rental service. The platform allows users to browse available cars, book rentals, and manage their reservations. The project was built as part of a school assignment to demonstrate web development skills.
 

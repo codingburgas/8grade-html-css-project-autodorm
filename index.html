@@ -2,17 +2,33 @@
 <html>
     <head>
         <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="styles/calendar.css">
         <title>AutoDorm Home</title>
     </head>
     <body>
         <header>
+            <a id="logo" href="index.html"><img src="media/logo.png" alt=""></a>
             <nav>
-                <a id="nav" href="">About us</a>
-                <a id="nav" href="">Reviews</a>
-                <a id="nav" href="">Contact us</a>
-                <a id="nav" href="">Log in</a>
-                <br>
+                <ul>
+                    <li><a id="nav" href="">About us</a></li>
+                    <li><a id="nav" href="">Reviews</a></li> 
+                    <li><a id="nav" href="">Contact us</a></li>
+                    <li><a id="nav" href="">Help</a></li>
+                    <li><a id="nav" href="">Log in</a></li>
+                </ul>
             </nav>
-        </header>    
+        </header>   
+        <section id="video">
+            <h1>
+                Choose the date of the car rental 
+            </h1>
+            <form id="dates" action="html/carsPage.html" method="get">
+                <p id="from">From:</p>
+                <input type="date" required> <br>
+                <p id="to">To:</p>
+                <input type="date" required> <br>
+                    <button id="submit" type="alert">Check results</button>
+            </form>
+        </section> 
     </body>
 </html>

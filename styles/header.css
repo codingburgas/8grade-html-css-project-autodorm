@@ -4,24 +4,45 @@ body{
 }
 /* Header styles */
 header{
-  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(32, 32, 32, 1.5);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
   color: white;
-  padding: 20px;
+  padding: 0 20px;
   margin: -9px 0;
   margin-left: -8px;
   margin-right: -8px;
+  height: 60px;
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+ul, li{
+  display: block;
+  padding: 100%;
+  padding: 5% 10px;
+}
+nav, ul, li, a{
+  display: flex;
+  justify-content: center;
+  
 }
 #nav{
   text-decoration: none;
   color: white;
   float: right;
-  margin-right: 2%;
-  vertical-align: middle;
-}
-#nav:hover{
-  border-top-color: 1px solid black;
-  border: 1px solid;
-  border-bottom-color: darkgoldenrod;
-  padding-bottom: 1%;
   
+}
+#logo{
+  height: 185%;
+  display: flex;
+  justify-content: left;
+}
+li:hover{
+    background-color: #333;
+    
 }

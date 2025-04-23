@@ -1,0 +1,19 @@
+#video{
+    border: 20px solid lightgray;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: lightgrey;
+}
+h1, form{
+    text-align: center;
+}
+#submit{
+    margin-top: 12px;
+}
+#to{
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#from{
+    margin-bottom: 2px;
+}

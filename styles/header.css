@@ -12,11 +12,12 @@ header{
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
   color: white;
   padding: 0 20px;
-  margin: -9px 0;
+  margin: -8px;
   margin-left: -8px;
   margin-right: -8px;
   height: 60px;
   width: 100%;
+  margin-bottom: 0.5px;
 }
 li{
   list-style: none;

@@ -1,0 +1,28 @@
+.main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-top: 50%;
+    border: 1px solid grey;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    right: 0;
+}
+#guide{
+    margin-top: 4%;
+    padding: 2%;
+}
+#aboutUs{
+    font-weight: 800;
+    font-style:italic;
+    font-size: 3vw;
+}
+#art{
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    font-size: large;
+}
+#team{
+    padding-left: 5%;
+    padding-top: 1% ;
+}

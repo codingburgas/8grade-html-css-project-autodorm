@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 
     <head>
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="styles/calendar.css">
-        <link rel="icon" href="/media/logo.png">
         <title>AutoDorm Home</title>
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="icon" href="/media/logo.png">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/mainPage.css">
+        
     </head>
     <body>
         <header>
-            <a id="logo" href="index.html"><img src="media/logo.png" alt=""></a>
+            <section><a id="logo" href="index.html"><img src="media/logo.png" alt=""></a></section>
             <nav>
                 <ul>
                     <li><a id="nav" href="">About us</a></li>
                     <li><a id="nav" href="">Reviews</a></li> 
                     <li><a id="nav" href="">Contact us</a></li>
-                    <li><a id="nav" href="">Help</a></li>
+                    <li><a id="nav" href="">Date</a></li>
+                    <li><a id="nav" href="">Tips</a></li>
                     <li><a id="nav" href="">Log in</a></li>
                 </ul>
             </nav>
         </header>   
-        <section id="video">
+
+
+        <div class="video">
+            <video autoplay loop muted play-inline>
+                <source src="media/background vid/AutoDorm video.mp4" type="video/mp4">
+            </video>
+        </div> 
+
+
+
+        <div class="main">
+            <section id="guide">
+                <h1 id="aboutUs">About us</h1>
+                <hr>
+                <article id="art">Welcome to AutoDorm......If you are new to our website let us help you find the perfect car for you. If you know what you are searching for, please enter the date you will need your car from the menu at the top of the page, then explore the available models. But if you don't now what specifically you need, let us help you find the best car for you. Use the tips further down the page or go straight to them from the "Tips" menu on the top of the page.Hope you find what you are looking for.</article>
+                <aside id="team">AutoDorm team</aside>
+            </section>
+
+        </div>
+
+
+
+
+        <!--Za calendara da ne habq trud
             <h1>
                 Choose the date of the car rental 
             </h1>
@@ -29,7 +55,6 @@
                 <p id="to">To:</p>
                 <input type="date" required> <br>
                     <button id="submit" type="alert">Check results</button>
-            </form>
-        </section> 
+            </form>-->
     </body>
 </html>

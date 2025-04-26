@@ -1,6 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: whitesmoke;
+  background-color:#333;
+  margin: 0;
 }
 /* Header styles */
 header{
@@ -12,18 +13,21 @@ header{
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
   color: white;
   padding: 0 20px;
-  margin: -8px;
   margin-left: -8px;
   margin-right: -8px;
   height: 60px;
   width: 100%;
   margin-bottom: 0.5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 li{
   list-style: none;
 }
 ul, li{
-  display: block;
+  display: flex;
   padding: 100%;
   padding: 5% 10px;
 }
@@ -38,12 +42,19 @@ nav, ul, li, a{
   float: right;
   
 }
+nav{
+  padding-right: 10px;
+}
 #logo{
-  height: 185%;
   display: flex;
   justify-content: left;
+  height: 100px;
 }
 li:hover{
     background-color: #333;
     
+}
+.sticky{
+  position: sticky;
+  top: 0;
 }

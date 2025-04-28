@@ -6,6 +6,7 @@
         <link rel="icon" href="/media/logo.png">
         <link rel="stylesheet" href="styles/video.css">
         <link rel="stylesheet" href="styles/mainPage.css">
+        <link rel="stylesheet" href="styles/calendar.css">
         
     </head>
     <body>
@@ -16,9 +17,8 @@
                     <li><a id="nav" href="">About us</a></li>
                     <li><a id="nav" href="">Reviews</a></li> 
                     <li><a id="nav" href="">Contact us</a></li>
-                    <li><a id="nav" href="">Date</a></li>
                     <li><a id="nav" href="">Tips</a></li>
-                    <li><a id="nav" href="">Log in</a></li>
+                    <li><a id="nav" href="html/logIn/logIn.html">Log in</a></li>
                 </ul>
             </nav>
         </header>   
@@ -31,6 +31,22 @@
         </div> 
 
 
+        <section id="calendar">
+            <h1>
+                Choose the date you'll need your car: 
+            </h1>
+            <form id="dates" action="html/carsPage.html" method="get">
+                <p id="from">From:</p>
+                <input id="date" type="date" required> <br>
+                <hr>
+                <p id="to">To:</p>
+                <input id="date" type="date" required> <br>
+                <hr>
+                    <button id="submit" type="alert">Check results</button>
+            </form>
+        </section>
+
+
 
         <div class="main">
             <section id="guide">
@@ -39,7 +55,6 @@
                 <article id="art">Welcome to AutoDorm......If you are new to our website let us help you find the perfect car for you. If you know what you are searching for, please enter the date you will need your car from the menu at the top of the page, then explore the available models. But if you don't now what specifically you need, let us help you find the best car for you. Use the tips further down the page or go straight to them from the "Tips" menu on the top of the page.Hope you find what you are looking for.</article>
                 <aside id="team">AutoDorm team</aside>
             </section>
-
         </div>
 
 
@@ -47,7 +62,7 @@
 
         <!--Za calendara da ne habq trud
             <h1>
-                Choose the date of the car rental 
+                Choose the date you'll need your car: 
             </h1>
             <form id="dates" action="html/carsPage.html" method="get">
                 <p id="from">From:</p>

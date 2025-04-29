@@ -9,8 +9,12 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url(/media/cars/car2.webp);
+    text-decoration: none;
   }
-
+a{
+    text-decoration: none;
+    color: #ccc;
+}
   .login-container {
     background: rgb(224, 221, 221);
     padding: 60px;
@@ -33,21 +37,17 @@ body {
     border: 2px solid #ccc;
     border-radius: 20px;
   }
-
-  .login-container button {
-    
-    width: 100%;
-    padding: 15px;
-    background-color: #32516e98;
+#logIn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: grey;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 20px;
     cursor: pointer;
-    font-weight: bold;
-    
-  }
-
-  .login-container button:hover {
+    font-size: 16px;
+  } 
+  #logIn:hover {
     background-color: #1b61bd;
   }
   #email, #password {

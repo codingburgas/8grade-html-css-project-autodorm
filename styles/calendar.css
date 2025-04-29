@@ -6,6 +6,7 @@
     height: 50%;
     width: 27%;
     color: white;
+    border-radius: 15px;
 }
 h1, form{
     text-align: center;

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>AutoDorm Home</title>
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="icon" href="/media/logo.png">
+        <link rel="stylesheet" href="/styles/video.css">
+        <link rel="stylesheet" href="/styles/mainPage.css">
+        <link rel="stylesheet" href="/styles/calendar.css">
+        
+    </head>
+    <body>
+        <header>
+            <section><a id="logo" href="/index.html"><img src="/media/logo.png" alt="AutoDorm logo"></a></section>
+            <nav>
+                <ul>
+                    <li><a id="nav" href="#guide">About us</a></li>
+                    <li><a id="nav" href="">Reviews</a></li> 
+                    <li><a id="nav" href="">Contact us</a></li>
+                    <li><a id="nav" href="">Tips</a></li>
+                </ul>
+            </nav>
+        </header>   
+
+
+        <div class="video">
+            <video autoplay loop muted play-inline>
+                <source src="/media/background vid/AutoDorm video.mov" type="video/mp4">
+            </video>
+        </div> 
+
+
+        <section id="calendar">
+            <h1>
+                Choose the date you'll need your car: 
+            </h1>
+            <form id="dates" action="html/carsPage.html" method="get">
+                <p id="from">From:</p>
+                <input id="date" type="date" required> <br>
+                <hr>
+                <p id="to">To:</p>
+                <input id="date" type="date" required> <br>
+                <hr>
+                    <button id="submit" type="alert">Check results</button>
+            </form>
+        </section>
+
+
+
+        <div class="main">
+            <section id="guide">
+                <h1 id="aboutUs">AutoDorm</h1>
+                <hr>
+                <article id="art">Welcome to AutoDorm.If you are new to our website let us help you find the perfect car for you. If you know what you are searching for, please enter the date you will need your car <b>from the calendar</b> at the top of the page, then explore the available models. But if you don't now what specifically you need, let us help you find the best car for you. Use the tips further down the page or go straight to them <b>from the "Tips" menu</b> on the top of the page.Hope you find what you are looking for. If you want to understand more <b>about us</b> use the "About us" menu at the top.</article>
+                <aside id="team">AutoDorm team</aside>
+            </section>
+
+
+            <section id="cards">
+                <h1>Our favourites:</h1>
+                <section id="cars">
+                    <span id="carCard">
+                        <img src="" alt="car1">
+                        <br>
+                        car info
+                        <br>
+                        <button>View</button>
+                    </span>
+
+
+                    <span id="carCard">
+                        <img src="" alt="car2">
+                        <br>
+                        car info
+                        <br>
+                        <button>View</button>
+                    </span>
+
+
+                    <span id="carCard">
+                        <img src="" alt="car3">
+                        <br>
+                        car info
+                        <br>
+                        <button>View</button>
+                    </span>
+                </section>
+                
+
+
+            </section>
+
+
+
+            <section id="tips">
+                <h1>If you don't know what you need:</h1>
+                <hr>
+
+            </section>
+
+
+
+
+            <footer>
+                <section id="resr" >Auto dorm</section>
+            </footer>
+        </div>
+
+
+
+
+        <!--Za calendara da ne habq trud
+            <h1>
+                Choose the date you'll need your car: 
+            </h1>
+            <form id="dates" action="html/carsPage.html" method="get">
+                <p id="from">From:</p>
+                <input type="date" required> <br>
+                <p id="to">To:</p>
+                <input type="date" required> <br>
+                    <button id="submit" type="alert">Check results</button>
+            </form>-->
+    </body>
+</html>

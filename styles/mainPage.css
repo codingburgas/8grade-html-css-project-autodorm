@@ -27,3 +27,30 @@
     padding-left: 5%;
     padding-top: 1% ;
 }
+#cards{
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+#cars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    
+
+}
+#carCard{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    transition: all 0.4s;
+
+}
+#carCard:hover{
+    transform: scale(1.1);
+}

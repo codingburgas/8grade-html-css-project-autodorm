@@ -26,6 +26,10 @@ header{
 }
 li{
   list-style: none;
+  transition: all 0.4s;
+}
+li:hover{
+  transform: scale(1.1);
 }
 ul, li{
   display: flex;

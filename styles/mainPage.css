@@ -42,15 +42,35 @@
 
 }
 #carCard{
-    border: 1px solid black;
+    border: 2px solid rgb(105, 105, 105);
     border-radius: 15px;
-    height: 200px;
-    width: 300px;
+    height: auto;
+    width: auto;
     text-align: center;
-    align-items: center;
     transition: all 0.4s;
 
 }
 #carCard:hover{
     transform: scale(1.1);
+}
+#car1{
+    height: 200px;
+    width: auto;
+    top: 0;
+    border-radius: 15px;
+    margin: 0px;
+    
+}
+#emblem{
+    height: 30px;
+    width: auto;
+    margin: 0px;
+    padding-right: 2px;
+}
+#emblem1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }

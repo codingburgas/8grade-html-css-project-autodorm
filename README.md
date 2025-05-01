@@ -23,7 +23,7 @@ The goal of this project is to simulate a real-world car rental platform with a 
 
  ### Code editors and collaborative services used:
 
-| ![VS Code](https://img.icons8.com/color/48/visual-studio-code-2019.png) | ![GitHub](https://img.icons8.com/ios-glyphs/48/github.png) | ![MS Teams](https://img.icons8.com/color/48/microsoft-teams.png) |
+| ![VS Code](https://img.icons8.com/color/48/visual-studio-code-2019.png) | ![GitHub](https://img.icons8.com/ios-filled/50/ffffff/github.png) | ![MS Teams](https://img.icons8.com/color/48/microsoft-teams.png) |
 |:---:|:---:|:---:|
 | VS Code | GitHub | MS Teams |
 

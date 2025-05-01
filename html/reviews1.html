@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Reviews - CarHub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/review1.css">
+  
+  
+</head>
+<body>
+
+<header>
+  <h1>Customer Reviews</h1>
+  <p>Your voice drives our excellence.</p>
+</header>
+
+<div class="container">
+  <h2>Leave a Review</h2>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="car" placeholder="Car Model" required>
+    <select name="rating" required>
+      <option value="">Select Rating</option>
+      <option value="5">★★★★★ - Excellent</option>
+      <option value="4">★★★★☆ - Good</option>
+      <option value="3">★★★☆☆ - Average</option>
+      <option value="2">★★☆☆☆ - Poor</option>
+      <option value="1">★☆☆☆☆ - Terrible</option>
+    </select>
+    <textarea name="comment" rows="4" placeholder="Write your experience..." required></textarea>
+    <button type="submit">Submit Review</button>
+  </form>
+
+  <h2>What Our Customers Say</h2>
+  <div class="reviews">
+    <div class="review-card">
+      <div class="review-header">
+        <span class="review-name">Valeria Vulchanova – Audi rs 7</span>
+        <span class="review-rating">★★★★★</span>
+      </div>
+      <p class="review-text">Smooth ride and excellent customer service! I’d definitely recommend CarHub.</p>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <span class="review-name">Georgi Pavlov – Ford Mustang</span>
+        <span class="review-rating">★★★★☆</span>
+      </div>
+      <p class="review-text">Loved the power, but the delivery was a bit delayed. Overall a good experience.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

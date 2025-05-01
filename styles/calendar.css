@@ -18,7 +18,7 @@ h1, form{
     margin-top: 12px;
     padding: 2%;
     border: 1px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 #submit:hover{
     background-color: cornflowerblue;
@@ -38,4 +38,5 @@ hr{
 #date{
     margin-top: 2%;
     font-size: 1vw;
+    border-radius: 15px;
 }

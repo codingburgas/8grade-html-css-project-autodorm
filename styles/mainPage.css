@@ -74,3 +74,9 @@
     margin-top: 0%;
     margin-bottom: 0%;
 }
+#view{
+    border-radius: 15px;
+    border: 2px solid rgb(105, 105, 105);
+    padding: 5px;
+    margin-bottom: 4px;
+}

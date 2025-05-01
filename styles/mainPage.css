@@ -80,7 +80,47 @@ a{
 }
 #view{
     border-radius: 15px;
-    border: 2px solid rgb(105, 105, 105);
+    border: 1px solid rgb(105, 105, 105);
     padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 4px;
+}
+#view:hover{
+    transition: 0.5s;
+    background-color: cornflowerblue;
+}
+.tipBox{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgba(220, 218, 218, 0.874);
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    transition: 0.8s ;
+    
+}
+.tipBox:hover{
+    transition: 0.8s;
+    height: 540px;
+    
+}
+#tip{
+    margin-top: 5%;
+}
+.top{
+    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    gap: 10px;
+    margin-top: 5%;
 }

@@ -38,5 +38,6 @@ hr{
 #date{
     margin-top: 2%;
     font-size: 1vw;
+    border: 1px;
     border-radius: 15px;
 }

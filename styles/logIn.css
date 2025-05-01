@@ -38,14 +38,16 @@ a{
     border-radius: 20px;
   }
 #logIn{
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 10px;
     padding: 10px;
-    background-color: grey;
+    background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
+    align-items: center;
   } 
   #logIn:hover {
     background-color: #1b61bd;

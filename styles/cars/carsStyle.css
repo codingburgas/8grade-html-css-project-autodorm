@@ -1,0 +1,60 @@
+.main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    border: 1px solid rgba(23, 23, 32, alpha);
+    border-radius: 5%;
+    background-color: whitesmoke;
+    right: 0;
+    padding: 0;
+}
+h2{
+    font-size: 3vw;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+}
+#title{
+    font-size: 3vw;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+}
+#image{
+    width: 650px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+}
+#description{
+    font-size: 2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    font-size: large;
+    margin-bottom: 50px;
+}
+#book{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#specs{
+    margin-top: -100px;
+    font-size: 2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    font-size: large;
+    margin-bottom: -150px;
+}

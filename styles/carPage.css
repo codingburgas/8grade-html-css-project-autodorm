@@ -11,21 +11,27 @@ a{
     margin-bottom: 10%;
 }
 #cars{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
     margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-
+}
+#cars .cardBelow{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: -1px;
+    margin-bottom: 10px;
 }
 #carCard{
+    display: grid;
     border: 2px solid rgb(105, 105, 105);
     border-radius: 15px;
     height: auto;
     width: auto;
     text-align: center;
     transition: all 0.4s;
+    margin-bottom: 15px;
 
 }
 #carCard:hover{

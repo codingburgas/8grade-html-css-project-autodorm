@@ -9,8 +9,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(32, 32, 32, 1.5);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  background-color: #92140c;
   color: white;
   padding: 0 20px;
   margin-left: -8px;
@@ -62,7 +61,14 @@ nav{
   height: 100px;
 }
 #li:hover{
-    background-color: #333;
+    background-color: #fff8f0;
+    transition: 0,5s;
+    #nav{
+      color:#1e1e24;
+      transition: 0,5s;;
+    }
+    
+    
     
 }
 .sticky{

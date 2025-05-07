@@ -1,0 +1,31 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 1px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+#logoFacebook {
+    width: 55px;
+    height: auto;
+    vertical-align: middle;
+}
+#logoInstagram {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}

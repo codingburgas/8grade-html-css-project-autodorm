@@ -4,12 +4,12 @@ body {
   background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
   color: #f0f0f0;
   line-height: 1.6;
-  padding: 0 20px;
+  padding: 0 px;
 }
 header {
   text-align: center;
   padding: 80px 20px 40px;
-  background: linear-gradient(135deg, #1c1c1c, #222831);
+  background:#92140c;
 }
 header h1 {
   font-size: 3.5rem;
@@ -30,7 +30,7 @@ section {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #92140c;
   border-radius: 20px;
   padding: 40px;
   box-shadow: 0 0 30px rgba(255,255,255,0.03);

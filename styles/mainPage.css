@@ -1,18 +1,16 @@
-.main{
+body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: absolute;
-    margin-top: 50%;
+    margin-top: 5%;
     border: 1px solid rgba(23, 23, 32, alpha);
     border-radius: 5%;
     background-color: #1e1e24;
     color:#fff8f0;
-    right: 0;
-    padding: 0;
+}
 a{
     text-decoration: none;
     color: #333;
 }
-}
+
 #guide{
     margin-top: 4%;
     padding: 2%;

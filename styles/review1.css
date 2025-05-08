@@ -6,30 +6,18 @@
 
   body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #1e1e24;
     color: #333;
   }
-
-  header {
-    background: #0d253f;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  }
-
-  header h1 {
-    font-size: 2.5rem;
-  }
-
   .container {
     width: 90%;
     max-width: 1100px;
     margin: 40px auto;
-    background: white;
+    background: #fff8f0;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    margin-top: 5%;
   }
 
   h2 {
@@ -58,7 +46,7 @@
   }
 
   button {
-    background-color: #0077cc;
+    background-color: #92140c;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -97,7 +85,7 @@
   }
 
   .review-name {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.1rem;
   }
 
@@ -113,9 +101,6 @@
   }
 
   @media (max-width: 600px) {
-    header h1 {
-      font-size: 1.8rem;
-    }
     .container {
       padding: 20px;
     }

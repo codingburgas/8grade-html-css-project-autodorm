@@ -1,9 +1,7 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 5%;
     border: 1px solid rgba(23, 23, 32, alpha);
-    border-radius: 5%;
-    background-color: #1e1e24;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
     color:#fff8f0;
 }
 a{
@@ -45,8 +43,8 @@ a{
 
 }
 #carCard{
-    border: 2px solid #92140c;
-    background-color: #1e1e24;
+    border: 1px solid #92140c;
+    background: rgba(255, 255, 255, 0.05);
     color: #fff8f0;
     border-radius: 15px;
     height: auto;
@@ -85,11 +83,17 @@ a{
     padding: 5px;
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 2%;
     margin-bottom: 4px;
+    transition: 0.5s;
 }
 #view:hover{
     transition: 0.5s;
-    background-color: cornflowerblue;
+    background-color:#1e1e24;
+    a{
+        transition: 0.5s;
+        color: white;
+    }
 }
 .tipBox{
     border: 1px solid grey;
@@ -97,7 +101,7 @@ a{
     padding: 2%;
     margin-left: 3%;
     margin-right: 3%;
-    background-color: #1e1e24;
+    background: rgba(255, 255, 255, 0.05);
     display: block;
     height: 100px;
     overflow: hidden;

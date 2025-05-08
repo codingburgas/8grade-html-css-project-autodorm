@@ -4,7 +4,8 @@ footer {
     text-align: center;
     padding: 25px;
     position: relative;
-    width: 100%;
+    left: 0;
+    right: 0;
     bottom: 0;
     margin-bottom: 1px;
 }

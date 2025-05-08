@@ -2,7 +2,7 @@ body {
     padding-top: 60px;
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #0d0f1b;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
     color: #0d0f1b;
   }
 
@@ -13,11 +13,9 @@ body {
     padding: 20px 50px;
     background-color: #0d0f1b;
   }
-
-  header nav a {
-    margin: 0 15px;
-    color: white;
+  #back{
     text-decoration: none;
+    color: white;
   }
   
  
@@ -26,6 +24,7 @@ body {
     text-align: center;
     font-size: 2rem;
     margin-top: 40px;
+    color: #fff8f0;
   }
 
   h2 span {
@@ -68,8 +67,8 @@ body {
 
   form input, form textarea {
     padding: 12px;
-    background: #0f1122;
-    border: 1px solid #fff8f0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #92140c;
     color: white;
     border-radius: 4px;
   }

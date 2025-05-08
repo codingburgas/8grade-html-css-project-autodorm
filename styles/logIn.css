@@ -1,59 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('car2.webp');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url(/media/cars/car2.webp);
-    text-decoration: none;
-  }
-a{
-    text-decoration: none;
-    color: #ccc;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  .login-container {
-    background: rgb(224, 221, 221);
-    padding: 60px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    opacity: 95%;
-  } 
-  .login-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
 
-  .login-container input, .login-container input {
-    width: 100%;
-    padding: 18px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: -20px;
-    border: 2px solid #ccc;
-    border-radius: 20px;
-  }
-#logIn{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    align-items: center;
-  } 
-  #logIn:hover {
-    background-color: #1b61bd;
-  }
-  #email, #password {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background:  url(../media/photos/loginpagebackground.jpg) no-repeat ;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+/* Navigation */
+
+/* Login Container */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(100vh - 80px);
+  padding: 40px;
+}
+
+.login-box {
+  max-width: 350px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.login-box h2 {
+  margin-bottom: 10px;
+}
+
+.login-box hr {
+  border: 1px solid #00aaff;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-box .forgot {
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
+  color: #ccc;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-box .register-link {
+  margin-top: 15px;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.login-box .register-link a {
+  color: #00aaff;
+  text-decoration: none;
+}
+

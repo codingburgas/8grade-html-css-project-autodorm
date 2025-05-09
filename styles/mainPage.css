@@ -104,14 +104,14 @@ a{
     margin-right: 3%;
     background: rgba(255, 255, 255, 0.05);
     display: block;
-    height: 100px;
+    height: 90px;
     overflow: hidden;
     transition: 0.8s ;
     
 }
 .tipBox:hover{
     transition: 0.8s;
-    height: 540px;
+    height: 550px;
     
 }
 #tip{
@@ -132,4 +132,12 @@ a{
     padding: 0;
     width: 100%;
     right: 0px;
+}
+#car2{
+    height: 200px;
+    width: auto;
+    top: 0;
+    border-radius: 15px;
+    margin: 0px;
+
 }

@@ -1,12 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%; 
+    background-image: url(../media/photos/loginpagebackground.jpg);
+    background-size: cover;
+}
 #calendar{
-    position: absolute;
     background-color: rgba(32, 32, 32, 0.9);
-    left: 1%;
-    top: 10%;
     height: 55%;
     width: 27%;
     color: white;
     border-radius: 15px;
+    padding: 20px;
 }
 h1, form{
     text-align: center;
@@ -19,6 +25,7 @@ h1, form{
     padding: 2%;
     border: 1px;
     border-radius: 15px;
+    font-size: 100%;
 }
 #submit:hover{
     background-color: cornflowerblue;
@@ -36,8 +43,10 @@ hr{
     margin-right: 10%;
 }
 #date{
+    width: 65%;
     margin-top: 2%;
-    font-size: 1vw;
+    margin-bottom: 2%;
+    font-size: 185%;
     border: 1px;
-    border-radius: 15px;
+    border-radius: 10px;
 }

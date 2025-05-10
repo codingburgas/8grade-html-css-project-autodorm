@@ -38,6 +38,8 @@ a{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 
     
 
@@ -58,8 +60,8 @@ a{
     transform: scale(1.1);
 }
 #car1{
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100%;
     top: 0;
     border-radius: 15px;
     margin: 0px;
@@ -111,7 +113,7 @@ a{
     
 }
 #boxA:hover{
-    height: 570px;
+    height: 590px;
 }
 .tipBox:hover{
     transition: 0.8s;
@@ -128,8 +130,10 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    gap: 10px;
+    gap: 3%;
     margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 #photo{
     margin: 0;
@@ -138,10 +142,17 @@ a{
     right: 0px;
 }
 #car2{
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100%;
     top: 0;
     border-radius: 15px;
     margin: 0px;
 
+}
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    text-align: center;
 }

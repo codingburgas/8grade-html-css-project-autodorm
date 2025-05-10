@@ -56,12 +56,10 @@ h2{
     transition: 0.5s;
     transform:scale(1.1);
 }
-#specs{
-    font-size: 2vw;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    font-size: large;
+.specs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 #price{
     font-size: 3vw;
@@ -70,4 +68,15 @@ h2{
 }
 strong{
     color: #92140c;
+}
+table{
+    border: 1px solid #92140c;
+    text-align: center;
+}
+td, th, tr, table{
+    border: 1px solid #92140c;
+    border-collapse: collapse;
+}
+td{
+    padding: 2%;
 }

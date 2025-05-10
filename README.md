@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="media/logo.png" alt="AutoDorm logo" width="450" height="350">
+    <img src="media/logo.png" alt="AutoDorm logo" width="350" height="350">
 </p>   
 
 ## 🙋‍♂️ Our team

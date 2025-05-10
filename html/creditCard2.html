@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Credit Card Information</title>
+  <link rel="stylesheet" href="../styles/creditcard.css" />
+  <link rel="stylesheet" href="../styles/header.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div><a id="logo" href="../index.html"><img src="../media/logo.png" alt="Logo"></a></div>
+      <ul>
+        <li class="nav-item"><a class="nav-link" href="aboutUs.html">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li> 
+        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact us</a></li>
+        <li class="nav-item"><a class="nav-link" href="../index.html">Tips</a></li>
+        <li><img id="profileImage" src="../media/noImage.png"></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="credit-container">
+    <div class="credit-box">
+      <h2>Add Credit Card Information</h2>
+      <hr />
+      <form action="card-submitted.html" method="post">
+        <input type="text" placeholder="Cardholder Name" required />
+        <input type="text" placeholder="Card Number" required maxlength="19" />
+        <input type="text" placeholder="MM/YY" required maxlength="5" />
+        <input type="text" placeholder="CVV" required maxlength="4" />
+        <input type="text" placeholder="Billing Zip Code" required />
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

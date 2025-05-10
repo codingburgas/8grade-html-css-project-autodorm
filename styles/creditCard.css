@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url(../media/photos/redferrari.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff8f0;
+  height: 100vh;
+}
+
+/* Credit Card Container */
+.credit-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+  padding: 40px;
+}
+
+.credit-box {
+  max-width: 400px;
+  width: 100%;
+  background-color: rgba(30, 30, 36, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.credit-box h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff8f0;
+}
+
+.credit-box hr {
+  border: 1px solid #92140c;
+  margin-bottom: 20px;
+}
+
+.credit-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff8f0;
+}
+
+.credit-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #92140c;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}

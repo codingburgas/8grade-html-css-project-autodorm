@@ -75,9 +75,33 @@ nav{
   position: sticky;
   top: 0;
 }
+footer{
+  background-color: #333;
+  border-radius: 2%;
+  height: 100px;
+  left: -1px;
+  right: -1px;
+  margin-bottom: -1%;
+  color: white;
+  
+}
 #profileImage{
   display: flex;
   justify-content: left;
   height: 38px;
   align-items: center;
 } 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  color: #ddd; /* Optional hover effect */
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}

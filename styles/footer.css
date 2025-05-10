@@ -1,4 +1,5 @@
 footer {
+    margin-top: 2%;
     background-color: #333;
     color: white;
     text-align: center;
@@ -7,7 +8,6 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    margin-bottom: 1px;
 }
 
 footer nav a {
@@ -22,11 +22,11 @@ footer nav a:hover {
 #logoFacebook {
     width: 55px;
     height: auto;
-    vertical-align: middle;
+
 }
 #logoInstagram {
     width: 40px;
     height: auto;
-    vertical-align: middle;
-    margin-bottom: 5px;
+    padding-bottom: 4px;
+
 }

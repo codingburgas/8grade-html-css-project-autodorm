@@ -10,7 +10,7 @@ a{
 }
 
 #guide{
-    margin-top: 4%;
+    margin-top: 1.2%;
     padding: 2%;
 }
 #aboutUs{
@@ -22,7 +22,7 @@ a{
     padding-left:5%;
     padding-right: 5%;
     padding-top: 1%;
-    font-size: large;
+    font-size: 1.2vw;
 }
 #team{
     padding-left: 5%;

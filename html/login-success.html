@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login</title>
+  <title>Registration Success</title>
   <link rel="stylesheet" href="../styles/login.css" />
   <link rel="stylesheet" href="../styles/header.css" />
+  <link rel="stylesheet" href="../styles/password-success.css" />
 </head>
 <body>
   <header>
@@ -18,21 +19,13 @@
         <li class="nav-item"><a class="nav-link" href="../index.html">Tips</a></li>
         <li class="nav-item"><a class="nav-link" href="login.html">Log in</a></li>
       </ul>
-
     </nav>
   </header>
- 
-  <main class="login-container">
-    <div class="login-box">
-      <h2>LOGIN</h2>
-      <hr />
-      <form action="login-success.html" method="get">
-        <input type="email" placeholder="Email" required />
-        <input type="password" placeholder="Password" required />
-        <a href="forgotpassword.html" class="forgot">Forgot Password?</a>
-        <button type="submit">LOGIN</button>
-        <p class="register-link">If you dont have an account create one:<a href="registration.html">Register</a></p>
-      </form>
+
+  <main class="success-message-container">
+    <div class="success-box">
+      <h2> You have successfully logged in</h2>
+      <button onclick="window.location.href='index2.html'">Home</button>
     </div>
   </main>
 </body>

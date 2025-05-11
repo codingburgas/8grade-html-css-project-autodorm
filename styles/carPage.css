@@ -1,7 +1,8 @@
  
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color:#fff8f0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a{
     text-decoration: none;
@@ -25,23 +26,24 @@ a{
     margin-bottom: 10px;
 }
 #carCard{
-    display: grid;
-    color: #f0f0f0;
-    border: 2px solid rgb(105, 105, 105);
+    border: 1px solid #92140c;
+    background: linear-gradient(300deg, #343434, #1B1212);
+    box-shadow: 0 0 30px rgba(255,255,255,0.03);
+    color: #fff8f0;
     border-radius: 15px;
     height: auto;
     width: auto;
     text-align: center;
     transition: all 0.4s;
-    margin-bottom: 15px;
- 
+    margin-bottom: 5%;
+
 }
 #carCard:hover{
     transform: scale(1.1);
 }
 #car1{
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 400px;
     top: 0;
     border-radius: 15px;
     margin: 0px;

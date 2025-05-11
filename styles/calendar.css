@@ -26,9 +26,14 @@ h1, form{
     border: 1px;
     border-radius: 15px;
     font-size: 100%;
+    transform: 0.9s;
 }
 #submit:hover{
+    transform: 0.9s;
     background-color: cornflowerblue;
+    a{
+        color: white;
+    }
 }
 #to{
     margin-top: 18px;
@@ -49,4 +54,8 @@ hr{
     font-size: 185%;
     border: 1px;
     border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

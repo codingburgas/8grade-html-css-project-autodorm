@@ -1,10 +1,11 @@
+ 
 body{
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 a{
     text-decoration: none;
-    color: #333;   
+    color: #333;  
 }
 #cards{
     margin-top: 7%;
@@ -25,6 +26,7 @@ a{
 }
 #carCard{
     display: grid;
+    color: #f0f0f0;
     border: 2px solid rgb(105, 105, 105);
     border-radius: 15px;
     height: auto;
@@ -32,7 +34,7 @@ a{
     text-align: center;
     transition: all 0.4s;
     margin-bottom: 15px;
-
+ 
 }
 #carCard:hover{
     transform: scale(1.1);
@@ -43,9 +45,9 @@ a{
     top: 0;
     border-radius: 15px;
     margin: 0px;
-    
+   
 }
-
+ 
 #emblem{
     height: 30px;
     width: auto;
@@ -78,3 +80,4 @@ a{
     border-radius: 15px;
     margin: 0px;
 }
+ 

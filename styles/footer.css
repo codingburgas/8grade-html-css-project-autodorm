@@ -9,7 +9,7 @@ footer{
     height: auto;
 }
 #footLogo{
-    width: 40%;
+    width: 20%;
     height: auto;
     margin-bottom: 2%;
 }
@@ -19,7 +19,26 @@ footer{
 #footPay{
     width: 20%;
     height: auto;
+}
+#mediaLogo{
+    width: 5%;
+    height: auto;
     margin-bottom: 2%;
+}
+#left{
+    float: left;
+    align-items: center;
+}
+#right{
+    justify-content: center;
+    margin-right: 10%;
+}
+#more{
+    margin-left: 30%;
+    margin-right: 20%;
+}
+#follow{
+    margin-right: 30%;
 }
 
 

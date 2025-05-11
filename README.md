@@ -11,8 +11,8 @@
 
 This is a web-based application for a car rental service. The platform allows users to browse available cars, book rentals, and manage their reservations. The project was built as part of a school assignment to demonstrate web development skills. We offer cars for a lot of different types of people.
 ## 📖  Documentation
-- [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/aiivanov24_codingburgas_bg/Ed84H-fUIbVBmvA0TQeVNFQB7mB2mQ6YlnDZp4vXRvzyoQ?e=gnUq5y)
-- [Prenestation](https://codingburgas-my.sharepoint.com/:p:/g/personal/aiivanov24_codingburgas_bg/EadG4pBdmxZBr8yH2PFFjdIBASEH9PWDxvB6fWfUoP3kHQ?e=lX24qv)
+- [Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/aiivanov24_codingburgas_bg/Ed84H-fUIbVBmvA0TQeVNFQB7mB2mQ6YlnDZp4vXRvzyoQ?e=mVRnPD)
+- [Prenestation](https://codingburgas-my.sharepoint.com/:p:/g/personal/aiivanov24_codingburgas_bg/EadG4pBdmxZBr8yH2PFFjdIBASEH9PWDxvB6fWfUoP3kHQ?e=UIXP1U)
 ## 🌐 Project Overview
 
 The goal of this project is to simulate a real-world car rental platform with a focus on clean interface, user-friendly functionality, and essential features like searching and booking.

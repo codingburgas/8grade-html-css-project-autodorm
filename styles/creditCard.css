@@ -59,3 +59,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+.credit-box button:hover {
+  background-color: #a52a2a;
+}
+a {
+  text-decoration: none;
+  color: #fff8f0;
+}

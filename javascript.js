@@ -7,4 +7,4 @@ function validatePasswords() {
         return false;
       }
       return true;
-    }
+    } 
